@@ -1,0 +1,4 @@
+.vagrant
+.vscode
+userfiles/
+!userfiles/.gitkeep
