@@ -17,6 +17,7 @@ fi
 while IFS= read -r script; do
   if [ -f "$VAGRANT_DIRETORY/$script" ]; then
     echo -e "\033[1;33m===>\033[0m 🚀 Running script: $VAGRANT_DIRETORY/$script"
+    cmod +x "$VAGRANT_DIRETORY/$script"
     bash "$VAGRANT_DIRETORY/$script"
   else
     echo "❌ Script '$script' not found in '$VAGRANT_DIRET/$script'!"
