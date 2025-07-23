@@ -4,8 +4,10 @@ sudo apt-get install -y \
     bash \
     build-essential \
     curl \
+    direnv \
     gcc \
     git \
+    golang-go \
     gnupg2 \
     htop \
     jq \
@@ -25,10 +27,12 @@ sudo apt-get install -y \
     virtualbox-guest-x11 \
     wget \
     zip \
-    zsh
-
-# Install oh-my-zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    unzip \
+    zsh \
+    yamllint \
+    nodejs \
+    node \
+    vim \
 
 # Install glab
 curl -sSL "https://raw.githubusercontent.com/upciti/wakemeops/main/assets/install_repository" | sudo bash
