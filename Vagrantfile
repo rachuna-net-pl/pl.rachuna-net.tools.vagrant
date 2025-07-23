@@ -23,6 +23,7 @@ Vagrant.configure("2") do |config|
   config.vm.network "forwarded_port", guest: 22, host: 2222, id: "ssh"
 
   config.vm.synced_folder ".", "/vagrant", type: "virtualbox"
+  config.vm.synced_folder "~/.gnupg", "/home/vagrant/.gnupg", type: "virtualbox"
   config.vm.synced_folder repositories_dir, repositories_dir, type: "virtualbox"
   config.vm.synced_folder "userfiles", "/tmp/userfiles", type: "virtualbox"
 

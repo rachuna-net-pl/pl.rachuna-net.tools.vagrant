@@ -1,4 +1,6 @@
 provisioning/upgrade-ubuntu.bash
-provisioning/bootstrap-certs.bash
 provisioning/install-packages.bash
+provisioning/bootstrap-certs.bash
 provisioning/install-hashicorp.bash
+provisioning/install-zsh.bash
+provisioning/install-hugo.bash

@@ -161,6 +161,12 @@ Edytuj plik `project.json` (konfiguracja Project Manager) i dodaj:
 
 Ta konfiguracja znacznie usprawnia pracę z maszyną wirtualną i integrację z VSCode.
 
+## Znane problemy
+
+```
+sudo modprobe -r kvm_amd kvm
+```
+
 ---
 ## Contributions
 Jeśli masz pomysły na ulepszenia, zgłoś problemy, rozwidl repozytorium lub utwórz Merge Request. Wszystkie wkłady są mile widziane!
